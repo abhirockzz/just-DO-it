@@ -1,0 +1,19 @@
+version: '3'
+services:
+    nats_server:
+        image: nats
+        container_name: natsio-server
+        ports:
+            - '8222:8222'
+    publisher:
+        build: java_publisher
+        depends_on:
+            - nats_server
+        environment:
+            - NATS_SERVER=nats://<LOAD_BALANCER_IP>:4222
+    subscriber:
+        build: go_subscriber
+        depends_on:
+            - nats_server
+        environment:
+            - NATS_SERVER=nats://<LOAD_BALANCER_IP>:4222
