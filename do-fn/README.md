@@ -148,7 +148,7 @@ Let's use the AWS S3 Go client to manipulate Spaces programatically. It will wil
 	- `github.com/aws/aws-sdk-go/aws/credentials`
 	- `github.com/aws/aws-sdk-go/aws/session`
 	- `github.com/aws/aws-sdk-go/service/s3`
-- Execute - `go run do-spaces-using-aws-s3-client.go --SPACES_ACCESS_KEY=<SPACES_ACCESS_KEY> --SPACES_ACCESS_KEY_SECRET=<SPACES_ACCESS_KEY_SECRET> --SPACES_ENDPOINT=<SPACES_ENDPOINT>` e.g. `go run do-spaces-using-aws-s3-client.go --SPACES_ACCESS_KEY=qwerty1234 --SPACES_ACCESS_KEY_SECRET=1234qwerty --SPACES_ENDPOINT=sgp1.digitaloceanspaces.com --CREATE_SPACE_NAME=my-test-space` 
+- Execute - `go run do-spaces-using-aws-s3-client.go --SPACES_ACCESS_KEY=<SPACES_ACCESS_KEY> --SPACES_ACCESS_KEY_SECRET=<SPACES_ACCESS_KEY_SECRET> --SPACES_ENDPOINT=<SPACES_ENDPOINT> --CREATE_SPACE_NAME=<name of Space you want to create>` e.g. `go run do-spaces-using-aws-s3-client.go --SPACES_ACCESS_KEY=qwerty1234 --SPACES_ACCESS_KEY_SECRET=1234qwerty --SPACES_ENDPOINT=sgp1.digitaloceanspaces.com --CREATE_SPACE_NAME=my-test-space` 
 
 
 ## Delete resources
