@@ -7,7 +7,7 @@ We will make use of
 - [One-click app](https://www.digitalocean.com/products/one-click-apps/) to quickly standup Docker in the cloud
 - [Spaces](https://www.digitalocean.com/products/spaces/) (a S3 compatible store)
 	- **Fn** will use **Spaces** as its log store
-	- Demonstrate how to connect to Spaces using [AWS S3 Go client](https://docs.aws.amazon.com/sdk-for-go/api/service/s3/)
+	- [Demonstrate](https://github.com/abhirockzz/just-DO-it/blob/master/do-fn/do-spaces-using-aws-s3-client.go) how to connect to Spaces using [AWS S3 Go client](https://docs.aws.amazon.com/sdk-for-go/api/service/s3/)
 
 
 ## Create Droplets

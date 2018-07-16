@@ -6,7 +6,7 @@ We will make use of
 
 - [Droplet](https://www.digitalocean.com/products/droplets/) - for NATS
 - [Load Balancer](https://www.digitalocean.com/products/load-balancer/) - front end NATS cluster 
-- [REST API](https://developers.digitalocean.com/documentation/v2/)  and [Go client](https://github.com/digitalocean/godo) for programmatic access to above mentioned resources
+- [REST API](https://developers.digitalocean.com/documentation/v2/)  and [Go client](https://github.com/digitalocean/godo) for [programmatic access](https://github.com/abhirockzz/just-DO-it/blob/master/do-nats/cleanup-do-resources.go) to above mentioned resources
 
 ## Create Droplets
 
