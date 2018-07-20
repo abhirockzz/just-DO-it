@@ -27,4 +27,5 @@
 
 ### Monitoring
 
-After activating Monitoring for an existing Droplet, all the existing graphs disappeared for a while. This was a bit of a surprise since I thought that the default graphs (bandwidth, CPU, disk I/O) would continue to show up and the user would be notified about the fact that additional graphs are being churned
+- It would make sense to have the ability to expose DO monitoring metrics so that they can be consumed by external systems like Prometheus etc.
+- After activating Monitoring for an existing Droplet, all the existing graphs disappeared for a while. This was a bit of a surprise since I thought that the default graphs (bandwidth, CPU, disk I/O) would continue to show up and the user would be notified about the fact that additional graphs are being churned
