@@ -23,6 +23,7 @@
 
 - Programmatic Space creation only works with (hardcoded) `us-east-1` region (regardless of the actual DO region). This confused me since I thought that the Go based sample in the [Spaces API doc](https://developers.digitalocean.com/documentation/spaces/#introduction) was a typo
 - Spaces created programmatically don't show up in main Dashboard/Control Panel, but they do in the **Spaces** menu
+- Spaces UI does not allow sorting by name, last modified, size
 - Providing an example of a complete S3 URL (e.g. `s3://<space_key>:<space_secret>@<region>.digitaloceanspaces.com/<region>/<space_name>?ssl=true`) would be helpful (maybe in the Spaces API doc?) 
 
 ### Monitoring
