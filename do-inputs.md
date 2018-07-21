@@ -15,6 +15,7 @@
 ### Spaces
 
 - Provide event notification service (preferably S3 compliant)
+- Replication support (across regions)
 - Programmatic Space creation only works with (hardcoded) `us-east-1` region (regardless of the actual DO region). This confused me since I thought that the Go based sample in the [Spaces API doc](https://developers.digitalocean.com/documentation/spaces/#introduction) was a typo
 - Spaces created programmatically don't show up in main Dashboard/Control Panel, but they do in the **Spaces** menu
 - Spaces UI does not allow sorting by name, last modified, size
@@ -24,6 +25,11 @@
 
 - It would make sense to have the ability to expose DO monitoring metrics so that they can be consumed by external systems like Prometheus etc.
 - After activating Monitoring for an existing Droplet, all the existing graphs disappeared for a while. This was a bit of a surprise since I thought that the default graphs (bandwidth, CPU, disk I/O) would continue to show up and the user would be notified about the fact that additional graphs are being churned
+
+### Managed offerings
+
+- Databases - Redis (NoSQL) and Postgres (SQL) to begin with
+- Messaging systems - Kafka, NATS
 
 ## "nice to have"
 
